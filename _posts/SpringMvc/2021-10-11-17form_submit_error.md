@@ -1,3 +1,18 @@
+---
+title:  "Form submit - 에러 처리"
+excerpt: ""
+
+categories:
+  - SpringMvc
+tags:
+  - [Spring, Web, Mvc]
+ 
+date: 2021-10-11
+last_modified_at: 2021-10-11
+---
+
+
+
 # 폼 서브밋 **(**에러 처리**)**
 
 #### 바인딩 에러 발생 시 Model에 담기는 정보

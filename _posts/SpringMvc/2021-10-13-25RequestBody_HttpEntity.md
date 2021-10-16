@@ -1,3 +1,18 @@
+---
+title:  "@RequestBody & HttpEntity"
+excerpt: ""
+
+categories:
+  - SpringMvc
+tags:
+  - [Spring, Web, Mvc]
+ 
+date: 2021-10-13
+last_modified_at: 2021-10-13
+---
+
+
+
 # **@RequestBody & HttpEntity**
 
 ##### 이 두가지 다 요청 본문(body)에 들어있는 데이터를 Http Message Converter를 사용하여 변환해서 변환한 타입으로 받을 수 있는 아규먼트.

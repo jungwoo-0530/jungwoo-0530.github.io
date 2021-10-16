@@ -1,3 +1,18 @@
+---
+title:  "@ControllerAdvice - 전역 컨트롤러"
+excerpt: ""
+
+categories:
+  - SpringMvc
+tags:
+  - [Spring, Web, Mvc]
+ 
+date: 2021-10-16
+last_modified_at: 2021-10-16
+---
+
+
+
 # 전역 컨트롤러 - @(Rest)ControllerAdvice
 
 

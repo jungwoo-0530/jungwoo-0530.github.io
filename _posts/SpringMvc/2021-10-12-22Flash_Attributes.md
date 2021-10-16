@@ -1,3 +1,18 @@
+---
+title:  "Flash Attributes"
+excerpt: ""
+
+categories:
+  - SpringMvc
+tags:
+  - [Spring, Web, Mvc]
+ 
+date: 2021-10-12
+last_modified_at: 2021-10-12
+---
+
+
+
 # Flash Attributes
 
 #### 주로 리다이렉트시에 데이터를 전달할 때 사용한다.

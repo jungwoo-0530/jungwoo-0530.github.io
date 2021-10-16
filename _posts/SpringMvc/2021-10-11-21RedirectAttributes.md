@@ -1,3 +1,18 @@
+---
+title:  "RedirectAttributes"
+excerpt: ""
+
+categories:
+  - SpringMvc
+tags:
+  - [Spring, Web, Mvc]
+ 
+date: 2021-10-11
+last_modified_at: 2021-10-11
+---
+
+
+
 # RedirectAttributes
 
 #### 리다이렉트 할 때 기본적으로 Model에 들어있는 primitive type 데이터는 URI 쿼리 매개변수에 추가된다.

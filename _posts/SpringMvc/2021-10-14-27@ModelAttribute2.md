@@ -1,3 +1,18 @@
+---
+title:  "@ModelAttribute 또 다른 사용법"
+excerpt: ""
+
+categories:
+  - SpringMvc
+tags:
+  - [Spring, Web, Mvc]
+ 
+date: 2021-10-14
+last_modified_at: 2021-10-14
+---
+
+
+
 # @ModelAttribute 또 다른 사용법
 
 

@@ -1,3 +1,18 @@
+---
+title:  "@SessionAttributes"
+excerpt: ""
+
+categories:
+  - SpringMvc
+tags:
+  - [Spring, Web, Mvc]
+ 
+date: 2021-10-11
+last_modified_at: 2021-10-11
+---
+
+
+
 # **@SessionAttributes**
 
 #### 모델 정보를 HTTP 세션에 저장해주는 애노테이션

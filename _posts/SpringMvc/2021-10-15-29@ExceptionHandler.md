@@ -1,3 +1,18 @@
+---
+title:  "@ExceptionHandler - 예외 처리 핸들러"
+excerpt: ""
+
+categories:
+  - SpringMvc
+tags:
+  - [Spring, Web, Mvc]
+ 
+date: 2021-10-15
+last_modified_at: 2021-10-15
+---
+
+
+
 # 예외 처리 핸들러 - @ExceptionHandler
 
 #### 특정 예외가 발생한 요청을 처리하는 핸들러 정의

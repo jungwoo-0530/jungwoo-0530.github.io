@@ -1,3 +1,18 @@
+---
+title:  "@ResponseBody & ResponseEntity"
+excerpt: ""
+
+categories:
+  - SpringMvc
+tags:
+  - [Spring, Web, Mvc]
+ 
+date: 2021-10-13
+last_modified_at: 2021-10-13
+---
+
+
+
 # **@ResponseBody & ResponseEntity**
 
 #### @ResponseBody

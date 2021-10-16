@@ -1,3 +1,18 @@
+---
+title:  "@SessionAttribute"
+excerpt: ""
+
+categories:
+  - SpringMvc
+tags:
+  - [Spring, Web, Mvc]
+ 
+date: 2021-10-11
+last_modified_at: 2021-10-11
+---
+
+
+
 # @SessionAttribute
 
 #### HTTP 세션에 들어있는 값 참조할 때 사용
