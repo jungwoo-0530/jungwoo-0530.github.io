@@ -1,20 +1,3 @@
----
-title:  "first"
-excerpt: "md 파일에 마크다운 문법으로 작성하여 Github 원격 저장소에 업로드 해보자. 에디터는 Visual Studio code 사용! 로컬 서버에서 확인도 해보자. "
-
-categories:
-  - Spring
-tags:
-  - [Spring, Web]
- 
-date: 2021-10-16
-last_modified_at: 2021-10-16
----
-
-
-
-
-
 # PetClinic Controller 분석
 
 
@@ -91,17 +74,17 @@ last_modified_at: 2021-10-16
 
   - ```java
       @Column(name = "address")
-      	@NotEmpty
-      	private String address;
-      
-      	@Column(name = "city")
-      	@NotEmpty
-      	private String city;
-      
-      	@Column(name = "telephone")
-      	@NotEmpty
-      	@Digits(fraction = 0, integer = 10)
-      	private String telephone;
+    	@NotEmpty
+    	private String address;
+    
+    	@Column(name = "city")
+    	@NotEmpty
+    	private String city;
+    
+    	@Column(name = "telephone")
+    	@NotEmpty
+    	@Digits(fraction = 0, integer = 10)
+    	private String telephone;
     ```
 
     
