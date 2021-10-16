@@ -1,3 +1,18 @@
+---
+title:  "WebMvcConfigurer - 커스텀인터페이스"
+excerpt: "Delegation 구조에서 커스텀을 위한 인터페이스"
+
+categories:
+  - SpringMvc
+tags:
+  - [Spring, Web, Mvc]
+ 
+date: 2021-10-04
+last_modified_at: 2021-10-04
+---
+
+
+
 # WebMvcConfigurer
 
 <img src="/assets/images/image-20211006042210264.png" alt="image-20211006042210264" style="width:40%;" />

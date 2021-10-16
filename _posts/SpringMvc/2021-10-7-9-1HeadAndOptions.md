@@ -1,3 +1,18 @@
+---
+title:  "HEAD와 OPTIONS 요청 처리"
+excerpt: ""
+
+categories:
+  - SpringMvc
+tags:
+  - [Spring, Web, Mvc]
+ 
+date: 2021-10-07
+last_modified_at: 2021-10-07
+---
+
+
+
 # HEAD와 OPTIONS 요청 처리
 
 

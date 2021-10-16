@@ -1,3 +1,18 @@
+---
+title:  "Form Submit - 타임리프"
+excerpt: ""
+
+categories:
+  - SpringMvc
+tags:
+  - [Spring, Web, Mvc]
+ 
+date: 2021-10-09
+last_modified_at: 2021-10-09
+---
+
+
+
 # 폼 서브밋 **(**타임리프**)**
 
 #### 폼을 보여줄 요청 처리

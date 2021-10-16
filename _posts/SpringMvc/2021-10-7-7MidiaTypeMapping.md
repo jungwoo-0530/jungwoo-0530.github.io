@@ -1,3 +1,18 @@
+---
+title:  "미디어 타입 맵핑"
+excerpt: "미디어 타입 맵핑."
+
+categories:
+  - SpringMvc
+tags:
+  - [Spring, Web, Mvc]
+ 
+date: 2021-10-07
+last_modified_at: 2021-10-07
+---
+
+
+
 # 미디어 타입 맵핑
 
 #### 특정한 타입의 데이터를 담고 있는 요청만 처리하는 핸들러

@@ -1,3 +1,18 @@
+---
+title:  "@RequestMapping, @RequestParam - 요청 매개변수"
+excerpt: ""
+
+categories:
+  - SpringMvc
+tags:
+  - [Spring, Web, Mvc]
+ 
+date: 2021-10-09
+last_modified_at: 2021-10-09
+---
+
+
+
 # @RequestMapping(요청 매개변수)
 
 요청 매개변수란 ?

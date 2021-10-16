@@ -1,3 +1,18 @@
+---
+title:  "지원하는 메소드 아규먼트와 리턴 타입"
+excerpt: ""
+
+categories:
+  - SpringMvc
+tags:
+  - [Spring, Web, Mvc]
+ 
+date: 2021-10-09
+last_modified_at: 2021-10-09
+---
+
+
+
 # 지원하는 메소드 아규먼트와 리턴 타입
 
 #### 핸들러 메소드 아규먼트: 주로 요청 그 자체 또는 요청에 들어있는 정보를 받아오는데 사용한다.

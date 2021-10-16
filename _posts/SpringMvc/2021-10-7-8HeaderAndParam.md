@@ -1,3 +1,18 @@
+---
+title:  "헤더와 매개변수"
+excerpt: ""
+
+categories:
+  - SpringMvc
+tags:
+  - [Spring, Web, Mvc]
+ 
+date: 2021-10-07
+last_modified_at: 2021-10-07
+---
+
+
+
 # 헤더와 매개변수
 
 
