@@ -1,3 +1,18 @@
+---
+title:  "정적 리소스 지원"
+excerpt: ""
+
+categories:
+  - Spring-Boot
+tags:
+  - [Spring-Boot, Web, Mvc]
+ 
+date: 2021-09-21
+last_modified_at: 2021-09-21
+---
+
+
+
 # 정적 리소스 지원
 
 - 정적 리소스는 이미 만들어진 리소스. 즉, 요청이 서버로 들어오면 서버는 단지 리소스(뷰)를 찾아서 보내주기만하면 된다.
@@ -45,5 +60,5 @@
 
   - 리소스 핸들러를 추가하여 /m으로 시작하는 요청이 들어오면 m 디렉토리 파일들을 제공하도록 커스텀한 설정을 추가.
 
-<img src="img/image-20211016103825313.png" alt="image-20211016103825313" style="width:50%;" />
+<img src="/assets/images/image-20211016103825313.png" alt="image-20211016103825313" style="width:50%;" />
 

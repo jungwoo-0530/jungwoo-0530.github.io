@@ -1,3 +1,18 @@
+---
+title:  "ViewResolver"
+excerpt: ""
+
+categories:
+  - Spring-Boot
+tags:
+  - [Spring-Boot, Web, Mvc]
+ 
+date: 2021-09-20
+last_modified_at: 2021-09-20
+---
+
+
+
 # ViewResolver
 
 
@@ -52,11 +67,11 @@ accept 헤더 타입을 XML을 주고 컨텐츠 타입을 JSON 타입.
 
 테스트 실행시 다음과 같은 오류가 등장한다.
 
-<img src="img/image-20211016101252842.png" alt="image-20211016101252842" style="width:70%;" />
+<img src="/assets/images/image-20211016101252842.png" alt="image-20211016101252842" style="width:70%;" />
 
 해당하는 컨버터가 있지 않다는 소리다.
 
-<img src="img/image-20211016101341049.png" alt="image-20211016101341049" style="width:67%;" />
+<img src="/assets/images/image-20211016101341049.png" alt="image-20211016101341049" style="width:67%;" />
 
 HttpMessageConvertersAutoConfiguration을 가서 JacksonHttpMessageConvertersConfiguration을 들어가면
 
@@ -74,10 +89,10 @@ HttpMessageConvertersAutoConfiguration을 가서 JacksonHttpMessageConvertersCon
 
 그래서 위와 같은 의존성을 추가한다.
 
-<img src="img/image-20211016102035653.png" alt="image-20211016102035653" style="width:80%;" />
+<img src="/assets/images/image-20211016102035653.png" alt="image-20211016102035653" style="width:80%;" />
 
 
 
-<img src="img/image-20211016102104909.png" alt="image-20211016102104909" style="width:80%;" />
+<img src="/assets/images/image-20211016102104909.png" alt="image-20211016102104909" style="width:80%;" />
 
 그 결과 정상적으로 작동하는 것을 알 수 있다.

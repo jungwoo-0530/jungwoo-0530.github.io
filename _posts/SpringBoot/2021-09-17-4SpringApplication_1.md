@@ -1,3 +1,18 @@
+---
+title:  "SpringApplication - 로그레벨설정, 배너설정"
+excerpt: ""
+
+categories:
+  - Spring-Boot
+tags:
+  - [Spring-Boot, Web, Mvc]
+ 
+date: 2021-09-17
+last_modified_at: 2021-09-17
+---
+
+
+
 # SpringApplication-1
 
 
@@ -27,13 +42,13 @@ app.run(args);
 
 레벨 설정하는 방법은 
 
-<img src="../img/image-20211002065547245.png" alt="image-20211002065547245" style="width:33%;" />
+<img src="/assets/images/image-20211002065547245.png" alt="image-20211002065547245" style="width:33%;" />
 
 실행하는 옵션에서 Configurations를 들어가 VM options에 -Ddebug를 설정한다면 디버그 레벨로 설정이 된다.
 
 실행하면 아래와 같이 
 
-<img src="../img/image-20211002065802665.png" alt="image-20211002065802665" style="width:45%;" /> 
+<img src="/assets/images/image-20211002065802665.png" alt="image-20211002065802665" style="width:45%;" /> 
 
 디버그 레벨로 찍히는 것을 알 수 있다.
 
@@ -45,7 +60,7 @@ app.run(args);
 
 https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.spring-application
 
-<img src="./img/image-20211002070251090.png" alt="image-20211002070251090" style="width:30%;" />
+<img src="/assets/images/image-20211002070251090.png" alt="image-20211002070251090" style="width:30%;" />
 
 111
 
@@ -57,7 +72,7 @@ https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#fea
 
 변경하는 방법은 리소스에 **banner.txt | gif | jpg | png** 파일을 만든 후 띄우고 싶은 배너를 작성 후 실행하면 배너가 적용이 된다.
 
-<img src="./img/image-20211002070448167.png" alt="image-20211002070448167" style="width:30%;" />
+<img src="/assets/images/image-20211002070448167.png" alt="image-20211002070448167" style="width:30%;" />
 
 만약 다른 위치에 Banner를 만들고싶으면 **application.properties** 파일에
 

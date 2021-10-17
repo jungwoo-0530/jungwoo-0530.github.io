@@ -1,3 +1,18 @@
+---
+title:  "SpringApplication2 "
+excerpt: "ApplicationEvent,WebApplicationType 설정, ApplicationArguments, ApplicationRunner"
+
+categories:
+  - Spring-Boot
+tags:
+  - [Spring-Boot, Web, Mvc]
+ 
+date: 2021-09-17
+last_modified_at: 2021-09-17
+---
+
+
+
 # SpringApplication-2
 
 
@@ -59,7 +74,7 @@ public class Application {
 
 그 결과 정상적으로 출력이 된다.
 
-<img src="../img/image-20211002092554933.png" alt="image-20211002092554933" style="width:30%;" />
+<img src="/assets/images/image-20211002092554933.png" alt="image-20211002092554933" style="width:30%;" />
 
 
 
@@ -114,7 +129,7 @@ public class Application {
 
 아규먼트를 주는 방법은 두가지가 존재한다.
 
-<img src="./img/image-20211002094931329.png" alt="image-20211002094931329" style="width:30%;" />
+<img src="/assets/images/image-20211002094931329.png" alt="image-20211002094931329" style="width:30%;" />
 
 위와 같이 project Configuration에서 주는 방법
 
@@ -122,9 +137,9 @@ public class Application {
 
 
 
-<img src="./img/image-20211002095650247.png" alt="image-20211002095650247" style="width:50%;" />
+<img src="/assets/images/image-20211002095650247.png" alt="image-20211002095650247" style="width:50%;" />
 
-<img src="./img/image-20211002095711386.png" alt="image-20211002095711386" sstyle="width:30%;" />
+<img src="/assets/images/image-20211002095711386.png" alt="image-20211002095711386" sstyle="width:30%;" />
 
 
 
@@ -153,7 +168,7 @@ public class SampleListener{
 
 
 
-<img src="./img/image-20211002095307672.png" alt="image-20211002095307672" style="width:20%;" />
+<img src="/assets/images/image-20211002095307672.png" alt="image-20211002095307672" style="width:20%;" />
 
 정상적으로 들어온 것을 알 수 있다.
 
@@ -184,7 +199,7 @@ public class SampleListener implements ApplicationRunner
 
 
 
-<img src="./img/image-20211002100134140.png" alt="image-20211002100134140" style="width:30%;" />
+<img src="/assets/images/image-20211002100134140.png" alt="image-20211002100134140" style="width:30%;" />
 
 
 

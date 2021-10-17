@@ -1,5 +1,5 @@
 ---
-title: "Spring-Boot"
+title: "Spring-Boot - 나의 공부 + 백기선님 강좌"
 layout: archive
 permalink: categories/spring-boot
 author_profile: true

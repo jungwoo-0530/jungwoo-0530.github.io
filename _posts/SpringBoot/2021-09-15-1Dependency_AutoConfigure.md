@@ -1,3 +1,18 @@
+---
+title:  "의존성 관리, 자동설정"
+excerpt: ""
+
+categories:
+  - Spring-Boot
+tags:
+  - [Spring-Boot, Web, Mvc]
+ 
+date: 2021-09-15
+last_modified_at: 2021-09-15
+---
+
+
+
 # Spring-Boot
 
 스프링 부트 프로젝트 생성기 :  https://start.spring.io

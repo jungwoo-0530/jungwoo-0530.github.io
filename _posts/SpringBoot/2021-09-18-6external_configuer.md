@@ -1,3 +1,16 @@
+---
+title:  "외부 설정"
+excerpt: ""
+
+categories:
+  - Spring-Boot
+tags:
+  - [Spring-Boot, Web, Mvc]
+ 
+date: 2021-09-18
+last_modified_at: 2021-09-18
+---
+
 
 
 # 외부 설정

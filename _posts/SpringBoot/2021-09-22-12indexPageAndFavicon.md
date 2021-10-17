@@ -1,3 +1,18 @@
+---
+title:  "index페이지와 파비콘"
+excerpt: ""
+
+categories:
+  - Spring-Boot
+tags:
+  - [Spring-Boot, Web, Mvc]
+ 
+date: 2021-09-22
+last_modified_at: 2021-09-22
+---
+
+
+
 # index 페이지와 파비콘
 
 #### 웰컴 페이지
@@ -25,6 +40,6 @@
 - 파비콘이안바뀔때?
   - https://stackoverflow.com/questions/2208933/how-do-i-force-a-favicon-refresh
 
-<img src="img/image-20211016120538379.png" alt="image-20211016120538379" style="width:50%;" />
+<img src="/assets/images/image-20211016120538379.png" alt="image-20211016120538379" style="width:50%;" />
 
 위에 google을 표시하는 G가 파비콘
