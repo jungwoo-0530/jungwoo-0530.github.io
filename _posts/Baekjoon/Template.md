@@ -1,11 +1,11 @@
 ---
-title:  "[백준 10026] 적록색약 (DFS,BFS)"
+title:  "[백준 ]  ()"
 excerpt: ""
 
 categories:
   - Baekjoon
 tags:
-  - [Algorithm, C++, DFS, BFS]
+  - [Coding Test, Baekjoon, Cpp, DFS]
  
 date: 2021-10-19
 last_modified_at: 2021-10-19
@@ -29,7 +29,7 @@ last_modified_at: 2021-10-19
 
 
 
-```
+```c++
 
 ```
 
