@@ -1,7 +1,7 @@
 ---
 title: "JPA - 나의 공부 + 김영한님 강좌"
 layout: archive
-permalink: categories/JPA
+permalink: categories/jpa
 author_profile: true
 sidebar_main: true
 ---
