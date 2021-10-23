@@ -1,3 +1,18 @@
+---
+title:  "필드와 컬럼 매핑"
+excerpt: ""
+
+categories:
+  - Jpa
+tags:
+  - [Jpa, Web, ORM]
+ 
+date: 2021-10-23
+last_modified_at: 2021-10-23
+---
+
+
+
 # 필드와 컬럼 매핑
 
 
@@ -51,7 +66,7 @@ public class Member {
 
 ```
 
-<img src="img/image-20211024022851661.png" alt="image-20211024022851661" style="width:50%;" />
+<img src="/assets/images/image-20211024022851661.png" alt="image-20211024022851661" style="width:50%;" />
 
 String, @Lob을 사용하면 clob으로 매핑.
 
@@ -73,15 +88,9 @@ hibernate.hbm2ddl.auto
 
 #### @Column
 
-| 속성                   | 설명                                                         | 기본값                                                   |
-| ---------------------- | ------------------------------------------------------------ | -------------------------------------------------------- |
-| name                   | 필드와 매핑할 테이블의 컬럼 이름                             | 객체의 필드 이름                                         |
-| insertable, updatable  | 등록, 변경 가능 여부                                         | TRUE(변경가능)                                           |
-| **nullable(DDL)**      | null 값의 허용 여부를 설정한다. false로 설정하면 DDL 생성 시에 not null 제약조건이 붙는다. |                                                          |
-| unique(DDL)            | @Table의 uniqueConstraints와 같지만 한 컬럼에 간단히 유니크 제약조건을 걸 때 사용한다. |                                                          |
-| columnDefinition (DDL) | 데이터베이스 컬럼 정보를 직접 줄 수 있다.   ex) varchar(100) default ‘EMPTY' | 필드의 자바 타입과 방언 정보를 사용해서 적절한 컬럼 타입 |
-| length(DDL)            | 문자 길이 제약조건, String 타입에만 사용한다.                | 255                                                      |
-| precision, scale(DDL)  | BigDecimal 타입에서 사용한다(BigInteger도 사용할 수 있다). precision은 소수점을 포함한 전체 자릿수를, scale은 소수의 자릿수 다. 참고로 double, float 타입에는 적용되지 않는다. 아주 큰 숫자나 정밀한 소수를 다루어야 할 때만 사용한다. | precision=19, scale=2                                    |
+<img src="img/image-20211024083947996.png" alt="image-20211024083947996" style="width:70%;" />
+
+
 
 
 
@@ -91,9 +100,7 @@ hibernate.hbm2ddl.auto
 
 **주의! ORDINAL 사용X**
 
-| 속성  | 설명                                                         | 기본값           |
-| ----- | :----------------------------------------------------------- | ---------------- |
-| value | EnumType.ORDINAL: enum 순서를 데이터베이스에 저장<br />EnumType.STRING: enum 이름을 데이터베이스에 저장 | EnumType.ORDINAL |
+<img src="img/image-20211024084017213.png" alt="image-20211024084017213" style="width:70%;" />
 
 EnumType.ORDINAL을 사용할 경우 순서가 저장되므로 integer로 db에 매핑된다. 그러므로 enum타입을 사용할 때는 항상 STRING을 사용.
 
@@ -104,9 +111,7 @@ EnumType.ORDINAL을 사용할 경우 순서가 저장되므로 integer로 db에 
 **날짜 타입(java.util.Date, java.util.Calendar)을 매핑할 때 사용**
 **참고: LocalDate, LocalDateTime을 사용할 때는 생략 가능(최신 하이버네이트 지원)**
 
-| 속성  | 설명                                                         | 기본값 |
-| ----- | ------------------------------------------------------------ | ------ |
-| value | **TemporalType.DATE**: 날짜, 데이터베이스 date 타입과 매핑  <br />(예: 2013-10-11)<br />**TemporalType.TIME**: 시간, 데이터베이스 time 타입과 매핑  <br />•  (예: 11:11:11) <br />**TemporalType.TIMESTAMP**: 날짜와 시간, 데이터베이스 timestamp 타입과 매핑<br />•(예: 2013–10–11 11:11:11) |        |
+<img src="img/image-20211024084043853.png" alt="image-20211024084043853" style="width:70%;" />
 
 
 
