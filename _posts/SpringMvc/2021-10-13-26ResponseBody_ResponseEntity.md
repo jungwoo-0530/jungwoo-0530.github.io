@@ -56,7 +56,15 @@ public class EventApi {
 }
 ```
 
-@ResponseBody를 메소드에 사용하면 이 메소드가 리턴하는 값을 Http 응답 본문에 담아주는데, 담아 줄 때 HttpMessageConverter를 사용하여 리턴하는 값을 응답 본문에 있는 값으로 Convert
+@ResponseBody를 메소드에 사용하면 이 메소드가 리턴하는 값을 Http 응답 본문에 담아주는데, 담아 줄 때 HttpMessageConverter를 사용하여 리턴하는 값을 응답 본문에 있는 값으로 Convert.
+
+
+
+#### 추가적으로 @Controller를 사용하는 것은 주로 View를 반환하기 위해 사용. 그러기에 View를 반환하기 위해서 ViewResolver가 사용, 데이터를 반환하기 위해서는 @ResponseBody를 추가해야함.
+
+#### @RestController = @Controller + @ResponseBody. Data를 반환하기 위해서는 viewResolver대신 HttpMessageConverter가 동작.
+
+
 
 브라우저에서 기본적으로 accept 헤더에 html, xml 등을 원한다는 accept 헤더가 들어간다. 그렇지 않은 경우에는 우리가 콘솔에서 curl을 사용하거나 postman을 사용하는 경우에는 json으로 응답을 준다.
 
