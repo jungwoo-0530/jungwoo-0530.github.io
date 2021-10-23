@@ -1,3 +1,18 @@
+---
+title:  "JPA 구동 방식"
+excerpt: ""
+
+categories:
+  - Jpa
+tags:
+  - [Jpa, Web, ORM]
+ 
+date: 2021-10-22
+last_modified_at: 2021-10-22
+---
+
+
+
 #### JPA 구동 방식
 
 Persistence 클래스로 시작해서 설정 정보 조회를 한다. 
@@ -31,7 +46,7 @@ public class JpaMain {
 
 ```
 
-![image-20211023134443510](img/image-20211023134443510.png)
+![image-20211023134443510](/assets/images/image-20211023134443510.png)
 
 
 
@@ -112,7 +127,7 @@ public class JpaMain {
 
 
 
-<img src="img/image-20211023135036206.png" alt="image-20211023135036206" style="width:50%;" />
+<img src="/assets/images/image-20211023135036206.png" alt="image-20211023135036206" style="width:50%;" />
 
 
 
@@ -277,7 +292,7 @@ public class JpaMain {
 
 
 
-<img src="img/image-20211023135842324.png" alt="image-20211023135842324" style="width:30%;" />
+<img src="/assets/images/image-20211023135842324.png" alt="image-20211023135842324" style="width:30%;" />
 
 
 
@@ -336,7 +351,7 @@ createQuery에 있는 sql의 대상이 테이블이 아닌 객체 Member이다.
 
 JPQL은 지금은 간단히 어떤 것인지만 보고 나중에 다시 포스팅.
 
-<img src="img/image-20211023140857092.png" alt="image-20211023140857092" style="zoom:50%;" />
+<img src="/assets/images/image-20211023140857092.png" alt="image-20211023140857092" style="zoom:50%;" />
 
 필드를 다 가져온다. 멤버 엔티티임을 알 수 있다. 
 

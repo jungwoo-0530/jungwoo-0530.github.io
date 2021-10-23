@@ -1,3 +1,18 @@
+---
+title:  "영속성 관리"
+excerpt: ""
+
+categories:
+  - Jpa
+tags:
+  - [Jpa, Web, ORM]
+ 
+date: 2021-10-22
+last_modified_at: 2021-10-22
+---
+
+
+
 # 영속성 관리
 
 
@@ -84,7 +99,7 @@ public class JpaMain {
 - 변경 감지(Dirty Checking)
 - 지연 로딩(Lazy Loading)
 
-<img src="img/image-20211024005752875.png" alt="image-20211024005752875" style="width:50%;" />
+<img src="/assets/images/image-20211024005752875.png" alt="image-20211024005752875" style="width:50%;" />
 
 key에 해당하는 @Id, member1이고 Entity에 해당하는 member객체가 값이다.
 
@@ -143,7 +158,7 @@ public class JpaMain {
 
 ```
 
-<img src="img/image-20211024010744101.png" alt="image-20211024010744101" style="width:50%;" />
+<img src="/assets/images/image-20211024010744101.png" alt="image-20211024010744101" style="width:50%;" />
 
 위에서 볼 수 있듯이 한 트랜잭션 안에서 Before나오고 저장 쿼리가 날라가지 않고 After나오고 1차 캐시에서 조회하고 저장 쿼리가 날라간다. 즉 커밋시점에 저장되는 것(트랜잭션을 지원하는 쓰기 지연)을 알 수 있고 1차 캐시를 사용하여 조회하는 것을 알 수 있다.
 
@@ -184,7 +199,7 @@ public class JpaMain {
 }
 ```
 
-<img src="img/image-20211024011049570.png" alt="image-20211024011049570" style="width:50%;" />
+<img src="/assets/images/image-20211024011049570.png" alt="image-20211024011049570" style="width:50%;" />
 
 1차 캐시에 없는 DB에 저장되어있는 엔티티를 조회할 때, 같은 엔티티를 2번 조회하였지만 쿼리가 한번만 사용된 것을 알 수 있다. 즉, findMember1에는 DB에 저장되어있는 것을 가져와서 영속성 컨테스트에 올리고 findMember2에서 영속성 컨텍스트에 올라와있는 1차캐시에서 가져온다.
 
@@ -199,7 +214,7 @@ public class JpaMain {
 
 영속 엔티티는 동일성을 보장하기에 **같은 트랜잭션** 안에서 위와 같이 한다면 true가 출력이 된다. 즉 같은 엔티티라는 것.
 
-<img src="img/image-20211024011658007.png" alt="image-20211024011658007" style="zoom:50%;" />
+<img src="/assets/images/image-20211024011658007.png" alt="image-20211024011658007" style="zoom:50%;" />
 
 1차 캐시에 저장하면서 쓰기 지연 SQL 저장소에 쌓아 둔다. 커밋을 시점에 쓰기 지연 SQL 저장소에 쌓여있는 SQL들이 flush되면서 DB에 커밋된다.
 
@@ -223,7 +238,7 @@ Member member = em.find(Member.class, "jungwoo");
 
 find해서 zzzz로 변경만하고 persist()를 안해도 JPA가 알아서 업데이트 쿼리를 날린다.
 
-<img src="img/image-20211024012839945.png" alt="image-20211024012839945" style="width:50%;" />
+<img src="/assets/images/image-20211024012839945.png" alt="image-20211024012839945" style="width:50%;" />
 
 내부적으로 커밋하는 시점에서 flush()를 호출한다. 그 후 엔티티와 스냅샷을 비교한다. jpa가 비교를 해서 바뀌었다면 SQL 저장소에 쌓는다.
 

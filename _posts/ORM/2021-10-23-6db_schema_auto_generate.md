@@ -1,3 +1,18 @@
+---
+title:  "데이터베이스 스키마 자동 생성"
+excerpt: ""
+
+categories:
+  - Jpa
+tags:
+  - [Jpa, Web, ORM]
+ 
+date: 2021-10-23
+last_modified_at: 2021-10-23
+---
+
+
+
 # 데이터베이스 스키마 자동 생성
 
 - DDL을 애플리케이션 실행 시점에 자동 생성

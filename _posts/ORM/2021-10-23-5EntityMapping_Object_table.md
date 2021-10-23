@@ -1,3 +1,18 @@
+---
+title:  "엔티티 매핑"
+excerpt: ""
+
+categories:
+  - Jpa
+tags:
+  - [Jpa, Web, ORM]
+ 
+date: 2021-10-23
+last_modified_at: 2021-10-23
+---
+
+
+
 # 엔티티 매핑
 
 
