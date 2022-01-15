@@ -1,5 +1,5 @@
 ---
-title: "Spring Mvc - 나의 공부 + 백기선님 강좌"
+title: "Spring Mvc"
 layout: archive
 permalink: categories/spring-mvc
 author_profile: true

@@ -1,5 +1,5 @@
 ---
-title: "JPA - 나의 공부 + 김영한님 강좌"
+title: "JPA"
 layout: archive
 permalink: categories/jpa
 author_profile: true
