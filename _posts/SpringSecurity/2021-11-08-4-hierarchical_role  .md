@@ -50,3 +50,5 @@ WebSecurityConfig.java
 
 `RolehierarchyImpl`가 제공하는 메소드인 `setHierarchy()`를 사용하면 된다.
 
+`ROLE_A > ROLE_B > ROLE_C`으로 표현을 한다. ROLE_A가 최상위 권한.
+

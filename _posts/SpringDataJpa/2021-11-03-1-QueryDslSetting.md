@@ -1,6 +1,20 @@
-# QueryDsl 설정 방법
+---
+title:  "QueryDsl설정"
+excerpt: ""
 
-ㅣ
+categories:
+  - QueryDsl
+tags:
+  - [Spring, QueryDsl, Jpa]
+ 
+date: 2021-11-03
+last_modified_at: 2021-11-03
+
+---
+
+
+
+
 
 ### 1. build.gradle
 
@@ -62,6 +76,3 @@ public class QuerydslConfig {
 ```
 
  `JPAQueryFactory`를 빈으로 설정하여 어느 곳이든 바로 가져와서 사용할 수 있게 빈으로 설정한다.
-
-
-
