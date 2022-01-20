@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jungwoo-0530.github.io/sitemap.xml
